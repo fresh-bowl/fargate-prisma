@@ -3,7 +3,7 @@ managementApiSecret: SECRET
 databases:
   default:
     migrations: true
-    connector: mysql
+    connector: postgres
     host: DATABASE_HOST
     port: DATABASE_PORT
     user: DATABASE_USER
